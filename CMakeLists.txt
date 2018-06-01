@@ -7,3 +7,6 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/bin")
 add_executable(terminate
     terminate.c
 )
+add_executable(terminate_with_cleanup
+    terminate_with_cleanup.c
+)
