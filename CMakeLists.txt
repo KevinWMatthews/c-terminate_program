@@ -13,3 +13,6 @@ add_executable(terminate_with_cleanup
 add_executable(terminate_without_cleanup
     terminate_without_cleanup.c
 )
+add_executable(terminate_forked
+    terminate_forked.c
+)
