@@ -10,3 +10,6 @@ add_executable(terminate
 add_executable(terminate_with_cleanup
     terminate_with_cleanup.c
 )
+add_executable(terminate_without_cleanup
+    terminate_without_cleanup.c
+)
