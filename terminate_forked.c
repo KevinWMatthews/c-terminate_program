@@ -58,10 +58,10 @@ int main(void)
         printf("Parent process moving on.\n");
     }
 
-    while (1)
-    {
-        ;       // hang so we can inspect the processes
-    }
+    // while (1)
+    // {
+        // ;       // hang so we can inspect the processes
+    // }
 
     return 0;
 }

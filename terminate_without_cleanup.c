@@ -19,7 +19,7 @@ int main(void)
     atexit(cleanup_2);
 
     // Can also use _exit() from <unistd.h>
-    // _Exit(EXIT_SUCCESS);
-    _Exit(EXIT_FAILURE);
+    _Exit(EXIT_SUCCESS);
+    // _Exit(EXIT_FAILURE);
     return 0;
 }

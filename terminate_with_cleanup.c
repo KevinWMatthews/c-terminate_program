@@ -17,7 +17,7 @@ int main(void)
     atexit(cleanup_1);
     atexit(cleanup_2);
 
-    // exit(EXIT_SUCCESS);
-    exit(EXIT_FAILURE);
+    exit(EXIT_SUCCESS);
+    // exit(EXIT_FAILURE);
     return 0;
 }
